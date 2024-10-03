@@ -1,2 +1,2 @@
 # Fyshi.CSS
- CSS Classes and Attributes for App Development
+ CSS Classes and Attributes for WebApp Development
