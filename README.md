@@ -7,6 +7,9 @@
   - in main.css file:
     ```import fyshi.css```
 
+## Github:
+    [https://github.com/Fysheep/Fyshi.CSS](https://github.com/Fysheep/Fyshi.CSS)
 
 # Changelog:
  - 1.0.1: Improved Readme
+
