@@ -1,3 +1,15 @@
+.w-fc {
+  width: fit-content;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
 .mw-0 {
   min-width: 0;
 }
@@ -141,6 +153,10 @@
   height: 100%;
 }
 
+*[underlined] {
+  text-decoration: underline;
+}
+
 .p-1 {
   padding: 2px;
 }
@@ -159,12 +175,4 @@
 
 .p-5 {
   padding: 1rem;
-}
-
-.w100 {
-  width: 100%;
-}
-
-.h100 {
-  height: 100%;
 }
