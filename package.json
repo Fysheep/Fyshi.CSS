@@ -1,9 +1,9 @@
 {
   "name": "fyshi.css",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A simple mini CSS-framework for Vue and other frontend frameworks.",
   "main": "css/fyshi.css",
-  "keywords": ["css", "framework", "vue", "frontend"],
+  "keywords": ["css", "library", "vue", "frontend"],
   "author": "Fysheep",
   "license": "The Unlicense",
   "files": ["css/fyshi.css"]

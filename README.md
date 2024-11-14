@@ -55,3 +55,4 @@ By providing a set of predefined classes for layout, spacing, alignment, and int
 - 1.0.2: -//-
 - 1.0.3: expanded css minorly
 - 1.0.4: Readme now includes slight oversight + created Wiki Page (no content yet)
+- 1.0.5+6: CSS now includes min-(width,height) for flex-shrink; removed z-index classes 

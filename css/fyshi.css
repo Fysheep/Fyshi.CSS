@@ -46,14 +46,6 @@
   text-align: right !important;
 }
 
-.zi-0 {
-  z-index: 0;
-}
-
-.zi-1 {
-  z-index: 1;
-}
-
 .bdf-b {
   backdrop-filter: blur(5px);
 }
@@ -110,6 +102,16 @@
 
 .fsh-1 {
   flex-shrink: 1;
+}
+
+.fsh-1w {
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.fsh-1h {
+  flex-shrink: 1;
+  min-height: 0;
 }
 
 .fgr-0 {
