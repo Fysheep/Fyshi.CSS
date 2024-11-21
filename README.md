@@ -48,6 +48,7 @@ By providing a set of predefined classes for layout, spacing, alignment, and int
 
 ## Github:
 [https://github.com/Fysheep/Fyshi.CSS](https://github.com/Fysheep/Fyshi.CSS)
+Make sure to post improvement ideas into the discussions tab.
 
 # Changelog:
 
