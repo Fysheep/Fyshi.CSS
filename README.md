@@ -9,7 +9,7 @@ The file includes classes for positioning elements easily:
 
       Flexbox Utilities (dp-flex, fd-c, jc-*, ai-*): These classes cover the essentials of flexbox layouts, allowing you to align and justify content in different ways.
 
-      Sizing Classes (w-fc, w100, h100, mw-0, mh-0): Control width, height, and minimum dimensions, making responsive designs simpler.
+      Sizing Classes (w-fc, h-fc, w100, h100, mw-0, mh-0): Control width, height, and minimum dimensions, making responsive designs simpler.
 
       Gap and Spacing (gap-*, p-*): Useful for managing spacing between elements or padding within elements.
 
@@ -20,7 +20,7 @@ The toolkit includes utility classes that work well across different viewports. 
 
     Full-width and height classes (expand) ensure elements scale properly.
 
-    fit-content width (w-fc) adapts to content size, preventing overflow or unwanted stretching.
+    fit-content width and height (w-fc, h-fc) adapts to content size, preventing overflow or unwanted stretching.
 
 ## 4. Visual Customization
 
@@ -59,3 +59,4 @@ Make sure to post improvement ideas into the discussions tab.
 - 1.0.4: Readme now includes slight oversight + created Wiki Page (no content yet)
 - 1.0.5+6: CSS now includes min-(width,height) for flex-shrink; removed z-index classes 
 - 1.0.7: Wiki (1.0.0)
+- 1.0.8: Added h-fc, ow-bw
