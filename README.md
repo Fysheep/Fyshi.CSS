@@ -1,62 +1,98 @@
-# Fyshi.CSS
+# Fyshi.CSS v2.0.0
+
+Fyshi.CSS is a utility-first CSS library designed for rapid development and easy-to-maintain styles. With a focus on lightweight design and powerful utilities, version 2.0.0 introduces breaking changes and new features to enhance usability and maintainability.
+
+---
+
+## What's New in 2.0.0?
+Version 2.0.0 introduces several key changes and improvements:
+- **Updated Class Naming Conventions**: Simplified and more descriptive names for better readability (e.g., `ta-left` → `text-left`).
+- **CSS Variables**: Introduced spacing variables (`--space-xs`, `--space-sm`, etc.) for consistent and scalable design.
+- **Improved Flexibility**: Consolidated and enhanced flex utilities (`fsh-1` now includes `min-width` and `min-height`).
+- **Responsive Design**: Added responsive considerations and improved scalability.
+- **Backward-Incompatible Changes**: Some class names and functionality have been altered. Refer to the changelog for details.
+
+---
+
 ## 1. Utility-First Approach
 
-Each class is narrowly focused, often applying just a single CSS property or a small set of related properties. This means you can mix and match these classes in HTML to build complex layouts or styles without needing custom CSS. It’s a similar philosophy to frameworks like Tailwind CSS, though on a smaller and simpler scale.
+Fyshi.CSS embraces a utility-first philosophy. Each class is narrowly focused on a single property or a small set of related properties. This allows you to build complex layouts and styles directly in your HTML without writing custom CSS. It offers a smaller, simpler alternative to frameworks like Tailwind CSS.
+
+---
 
 ## 2. Flexibility and Positioning
 
-The file includes classes for positioning elements easily:
+The library includes a wide range of classes to manage positioning and layout effectively:
 
-      Flexbox Utilities (dp-flex, fd-c, jc-*, ai-*): These classes cover the essentials of flexbox layouts, allowing you to align and justify content in different ways.
+### **Flexbox Utilities**
+- `dp-flex`: Enable flexbox.
+- `fd-c`: Set flex direction to column.
+- `jc-*`, `ai-*`: Align and justify content easily with options like `center`, `start`, `end`, and more.
 
-      Sizing Classes (w-fc, h-fc, w100, h100, mw-0, mh-0): Control width, height, and minimum dimensions, making responsive designs simpler.
+### **Sizing Classes**
+- `expand`: Full width and height of the parent container.
+- `w-fc`, `h-fc`: Fit content width and height.
+- `w100`, `h100`: Full width or height.
+- `mw-0`, `mh-0`: Minimum width or height of 0 for better flex compatibility.
 
-      Gap and Spacing (gap-*, p-*): Useful for managing spacing between elements or padding within elements.
+### **Spacing and Gaps**
+- `gap-*`: Control spacing between grid or flex items.
+- `p-*`, `m-*`: Padding and margin utilities based on spacing variables (`--space-xs`, `--space-sm`, etc.).
 
-      Alignment Classes (ta-left, ta-center, ta-right): Text alignment helpers allow for quick adjustments without needing inline styles.
+---
+
 ## 3. Responsive and Consistent Design
 
-The toolkit includes utility classes that work well across different viewports. For example:
+Fyshi.CSS provides utilities that adapt well across different screen sizes:
+- `expand`: Ensures elements scale properly.
+- `w-fc` and `h-fc`: Fit content while maintaining responsiveness.
 
-    Full-width and height classes (expand) ensure elements scale properly.
+Consistency is maintained through the use of CSS variables, ensuring predictable spacing and layout behavior.
 
-    fit-content width and height (w-fc, h-fc) adapts to content size, preventing overflow or unwanted stretching.
+---
 
 ## 4. Visual Customization
 
-    Text and Cursor Control: Classes like fw-bold, underlined, and noselect help control text styling and behavior.
+The library offers tools for styling and interactivity:
+- **Text Styling**: `font-bold` for bold text, `text-underline` for underlined text.
+- **Cursor and Selection**: `[clickable]` for pointer cursor, `[no-sel]` for disabling text selection.
 
-    Interactivity Enhancements: Attributes like clickable make it easy to signify interactive elements.
+---
 
 ## 5. Minimal and Lightweight
 
-Since this toolkit avoids a complex setup or large file size (compared to full-featured frameworks), it’s perfect for projects where you want simplicity and quick development without a heavy CSS load. You get just enough utilities to handle common design patterns without the overhead.
-How It Helps with Design
+Fyshi.CSS avoids the complexity and overhead of full-featured frameworks, making it ideal for projects that need quick setup and a small CSS footprint. It delivers just enough utilities to handle common design patterns efficiently.
 
-By providing a set of predefined classes for layout, spacing, alignment, and interactivity, this package allows for:
+---
 
-    Rapid Prototyping: Quickly assemble layouts by applying utility classes to elements.
+## How to Use Fyshi.CSS
 
-    Consistency: Ensure a consistent look and feel across different components without needing to rewrite CSS.
+### Installation
+Install Fyshi.CSS via npm:
+```bash
+npm i fyshi.css
+```
 
-    Viewport Adaptability: The flexibility in sizing and spacing aids in creating layouts that adjust well to different screen sizes.
+### Import in Your Styles
+In your CSS entry file:
+```css
+@import 'fyshi.css';
+```
+### Documentation
+Refer to the [Fyshi.CSS Documentation](https://github.com/Fysheep/Fyshi.CSS/wiki) for detailed usage examples.
+---
 
-# How to use:
-- in CMD / CLI: `npm i fyshi.css`
-- in main.css file: `import fyshi.css`
-- [Documentation](https://github.com/Fysheep/Fyshi.CSS/wiki)
+## GitHub
+Explore the repository, report issues, or join discussions: [https://github.com/Fysheep/Fyshi.CSS](https://github.com/Fysheep/Fyshi.CSS)
+---
 
-## Github:
-[https://github.com/Fysheep/Fyshi.CSS](https://github.com/Fysheep/Fyshi.CSS)
+## Contributing
+Got ideas for improvements? Share them in the discussions tab or submit a pull request. Your feedback helps shape Fyshi.CSS!
+---
 
-Make sure to post improvement ideas into the discussions tab.
+## Changelog
+See the full changelog here or refer to the latest updates below:
 
-# Changelog:
-
-- 1.0.1: Improved Readme
-- 1.0.2: -//-
-- 1.0.3: expanded css minorly
-- 1.0.4: Readme now includes slight oversight + created Wiki Page (no content yet)
-- 1.0.5+6: CSS now includes min-(width,height) for flex-shrink; removed z-index classes 
-- 1.0.7: Wiki (1.0.0)
-- 1.0.8: Added h-fc, ow-bw
+- 2.0.0: Changed class naming conventions and improved consistency. Refer to the changelog for details on breaking changes.
+    
+- 1.0.x: Various improvements to the library, including flex utilities, wrapping classes, and text alignment.

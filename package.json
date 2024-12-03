@@ -1,6 +1,6 @@
 {
   "name": "fyshi.css",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "A simple mini CSS-library for Vue and other frontend frameworks.",
   "main": "css/fyshi.css",
   "keywords": ["css", "library", "vue", "frontend"],
