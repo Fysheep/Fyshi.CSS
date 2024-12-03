@@ -77,20 +77,27 @@ npm i fyshi.css
 In your CSS entry file:
 ```css
 @import 'fyshi.css';
-```
-### Documentation
+``````
+## Documentation
+
 Refer to the [Fyshi.CSS Documentation](https://github.com/Fysheep/Fyshi.CSS/wiki) for detailed usage examples.
+
 ---
 
 ## GitHub
+
 Explore the repository, report issues, or join discussions: [https://github.com/Fysheep/Fyshi.CSS](https://github.com/Fysheep/Fyshi.CSS)
+
 ---
 
 ## Contributing
+
 Got ideas for improvements? Share them in the discussions tab or submit a pull request. Your feedback helps shape Fyshi.CSS!
+
 ---
 
 ## Changelog
+
 See the full changelog here or refer to the latest updates below:
 
 - 2.0.0: Changed class naming conventions and improved consistency. Refer to the changelog for details on breaking changes.
