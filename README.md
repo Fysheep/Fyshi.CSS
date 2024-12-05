@@ -69,6 +69,7 @@ Fyshi.CSS avoids the complexity and overhead of full-featured frameworks, making
 
 ### Installation
 Install Fyshi.CSS via npm:
+[package link](https://www.npmjs.com/package/fyshi.css)
 ```bash
 npm i fyshi.css
 ```
